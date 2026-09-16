@@ -1,0 +1,130 @@
+/* Fundo geral */
+body {
+    background-color: #f5f3f7;
+    color: #29232f;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #24152f, #6d28d9) !important;
+    padding: 12px 25px;
+    min-height: 68px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .15);
+}
+
+/* Logo */
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+    .navbar-brand:hover {
+        color: #d8b4fe !important;
+    }
+
+/* Links da navbar */
+.navbar .nav-link {
+    color: #eee7f5 !important;
+}
+
+    .navbar .nav-link:hover {
+        color: #ffffff !important;
+        background: rgba(255, 255, 255, .12);
+    }
+
+    .navbar .nav-link.active {
+        background: rgba(255, 255, 255, .18);
+        color: #ffffff !important;
+    }
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #24152f;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(36, 21, 47, .08);
+}
+
+/* Cabeçalho dos cards */
+.card-header {
+    background: linear-gradient(135deg, #6d28d9, #9333ea);
+    color: #ffffff;
+}
+
+/* Inputs */
+.form-control:focus,
+.form-select:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, .15);
+}
+
+/* Botão principal */
+.btn-primary {
+    background: linear-gradient(135deg, #7c3aed, #9333ea);
+    border: none;
+    box-shadow: 0 4px 10px rgba(124, 58, 237, .20);
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #6d28d9, #7e22ce);
+    }
+
+/* Tabelas */
+.table thead {
+    background: linear-gradient(135deg, #24152f, #6d28d9);
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background: #faf5ff;
+}
+
+/* Links */
+a {
+    color: #7c3aed;
+}
+
+    a:hover {
+        color: #6d28d9;
+    }
+
+/* Dashboard */
+.dashboard-card .icon {
+    background: #f3e8ff;
+    color: #7c3aed;
+}
+
+.dashboard-card .number {
+    color: #24152f;
+}
+
+/* Paginação */
+.pagination .page-link {
+    color: #7c3aed;
+}
+
+.pagination .page-item.active .page-link {
+    background: #7c3aed;
+    color: white;
+}
+
+.pagination .page-link:hover {
+    background: #f3e8ff;
+}
+
+/* Footer */
+footer {
+    background: #ffffff;
+    border-top: 1px solid #e9dff0;
+}
+
+    footer .container {
+        color: #74677d;
+    }
